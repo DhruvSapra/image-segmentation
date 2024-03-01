@@ -53,7 +53,7 @@ Data augmentation is done by the following techniques:
 
 - A decoder network has been extended from the last layer of the pre-trained model, and it is concatenated to the consecutive layers.
 
-A detailed layout of the model is available [here](./readme_images/model.png).
+A detailed layout of the model is available [here](./readme_files/model.png).
 
 ## References
 
