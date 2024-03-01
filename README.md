@@ -32,3 +32,30 @@ Data augmentation is done by the following techniques:
 - Contrast Limited Adaptive Histogram Equalization (CLAHE)
 - Grid Distortion
 - Optical Distortion
+
+## InceptionResNetV2 Encoder based UNet Model
+
+### InceptionResNetV2 Architecture
+
+<p align="center"><img width = "90%" height= "auto" src="./readme_images/InceptionResNetV2.jpeg" /></p>
+
+<p align="center">Source: <a href="https://arxiv.org/pdf/1602.07261v2.pdf">https://arxiv.org/pdf/1602.07261v2.pdf</a></p>
+
+### UNet Architecture
+
+<p align="center"><img width = "80%" height= "auto" src="./readme_images/UNet.png" /></p>
+
+<p align="center">Source: <a href="https://arxiv.org/pdf/1505.04597.pdf">https://arxiv.org/pdf/1505.04597.pdf</a></p>
+
+### InceptionResNetV2-UNet Architecture
+
+- InceptionResNetV2 model pre-trained on the ImageNet dataset has been used as an encoder network.
+
+- A decoder network has been extended from the last layer of the pre-trained model, and it is concatenated to the consecutive layers.
+
+A detailed layout of the model is available [here](./readme_images/model.png).
+
+## References
+
+1. C. Szegedy, S. Ioffe, V. Vanhoucke, and A. Alemi, “Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning,” arXiv.org, 23-Aug-2016. [Online]. Available: https://arxiv.org/abs/1602.07261.
+2. O. Ronneberger, P. Fischer, and T. Brox, “U-Net: Convolutional Networks for Biomedical Image Segmentation,” arXiv.org, 18-May-2015. [Online]. Available: https://arxiv.org/abs/1505.04597.
