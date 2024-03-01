@@ -37,13 +37,13 @@ Data augmentation is done by the following techniques:
 
 ### InceptionResNetV2 Architecture
 
-<p align="center"><img width = "90%" height= "auto" src="./readme_images/InceptionResNetV2.jpeg" /></p>
+<p align="center"><img width = "90%" height= "auto" src="./readme_files/InceptionResNetV2.jpeg" /></p>
 
 <p align="center">Source: <a href="https://arxiv.org/pdf/1602.07261v2.pdf">https://arxiv.org/pdf/1602.07261v2.pdf</a></p>
 
 ### UNet Architecture
 
-<p align="center"><img width = "80%" height= "auto" src="./readme_images/UNet.png" /></p>
+<p align="center"><img width = "80%" height= "auto" src="./readme_files/UNet.png" /></p>
 
 <p align="center">Source: <a href="https://arxiv.org/pdf/1505.04597.pdf">https://arxiv.org/pdf/1505.04597.pdf</a></p>
 
