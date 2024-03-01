@@ -19,7 +19,7 @@ Model Link: https://drive.google.com/file/d/1Y5yWuJVVVFAnKjsC6z_RRxf1z955eH0D/vi
 </p>
 
 <p align="justify">
-There are only 72 images (having different resolutions) in the dataset, out of which I have used 56 images (~78%) for training set and remaining 16 images (~22%) for validation set. It is a very small amount of data, in order to artificially increase the amount of data and avoid overfitting, I preferred using data augmentation. By doing so I have increased the training data upto 9 times. So, the total number of images in the training set is 504 (56+448), and 16 (original) images in the validation set, after data augmentation.
+There are only 72 images (having different resolutions) in the dataset, out of which We have used 56 images (~78%) for training set and remaining 16 images (~22%) for validation set. It is a very small amount of data, in order to artificially increase the amount of data and avoid overfitting, We preferred using data augmentation. By doing so We have increased the training data upto 9 times. So, the total number of images in the training set is 504 (56+448), and 16 (original) images in the validation set, after data augmentation.
 </p>
 
 Data augmentation is done by the following techniques:
